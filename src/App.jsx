@@ -7,6 +7,8 @@ import UserInfo from "./components/UserInfo.jsx";
 import UserList from "./components/UserList.jsx";
 import StateManagement from "./components/StateManagment.jsx";
 import Counter from "./components/Counter.jsx";
+import Input from "./components/Input.jsx";
+import FruitList from "./components/FruitList.jsx";
 
 // parent component
 function App() {
@@ -51,6 +53,12 @@ function App() {
 
         <StateManagement/>
         <Counter/>
+
+      <hr/>
+      <Input/>
+      <hr/>
+
+      <FruitList/>
 
 
 
