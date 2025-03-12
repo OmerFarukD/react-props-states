@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 
 function Counter() {
-
     const [number,setNumber] = useState(0);
     const  [range,setRange] = useState(1);
 
@@ -12,7 +11,7 @@ function Counter() {
             <p>Aralık : {range}</p>
 
             <button style={{margin:"12px"}}
-            onClick={()=> {number+= range}}
+            onClick={()=> {setNumber(number+range)}}
             >Arttır</button>
 
             <button
