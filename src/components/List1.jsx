@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function List1() {
     const kisiler = ['Yunus Emre Cinbolat','Doğukan Bayazıt','Eda Esen','Senanur Yurdakul','Özlem Arslan']
     return (
@@ -12,5 +13,7 @@ function List1() {
         </ul>
     );
 }
+
+
 
 export default List1;
